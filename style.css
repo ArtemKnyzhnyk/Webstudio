@@ -16,3 +16,45 @@ footer{
 button{
     background-color: #2196F3;
 }
+.font{
+    font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700; 
+text-align: center; 
+}
+.ffont{
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal; 
+}
+h1{
+    text-align: center;
+font-family: Roboto;
+font-size: 44px;
+font-style: normal; 
+}
+button{
+    text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal; 
+}
+.alarm{
+    font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700; 
+}
+.we{
+    text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal; 
+}
+.stop{
+    text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal; 
+}
