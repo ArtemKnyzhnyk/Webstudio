@@ -59,7 +59,9 @@ letter-spacing: 0.28px;
 .header-adress:hover{
     color: var(--akcent-color);
 }
-
+.buttons-list{
+    display: flex;
+}
 .hero-title{
     color: #FFF;
 text-align: center;
