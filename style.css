@@ -328,7 +328,7 @@ margin-top: 20px;
   margin-top: 4px;
 }
 .posters-article {
-  width: calc((100% - 30px * 2 ) / 9 );
+  width: calc((100% - 30px * 2 ) / 3 );
  
 }
 
