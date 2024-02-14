@@ -302,7 +302,6 @@ padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-
 }
 .posters-item{
   width: 370px;
@@ -329,7 +328,7 @@ margin-top: 20px;
   margin-top: 4px;
 }
 .posters-article {
- 
+  width: calc((100% - 30px * 2 ) / 9 );
  
 }
 
