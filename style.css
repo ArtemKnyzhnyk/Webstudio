@@ -148,7 +148,8 @@ padding-bottom: 50px;
   gap: 30px;
   border: solid blue 5px;
 }
-
+.feature-svg{
+}
 .feature-title {
   font-size: 14px;
   font-style: normal;
@@ -306,6 +307,7 @@ padding-bottom: 50px;
 .posters-item{
   width: 370px;
   outline: solid blue;
+  width: calc((100% - 30px * 2 ) / 3 );
 }
 .subcontainer{
   outline: solid yellow 5px;
@@ -328,7 +330,6 @@ margin-top: 20px;
   margin-top: 4px;
 }
 .posters-article {
-  width: calc((100% - 30px * 2 ) / 3 );
  
 }
 
