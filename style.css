@@ -148,7 +148,11 @@ padding-bottom: 50px;
   gap: 30px;
   border: solid blue 5px;
 }
-.feature-svg{
+.feature-item-box::before{
+  width: 100px;
+  height: 100px;
+  background-image: url(./imges/antenna\ 1.png);
+  
 }
 .feature-title {
   font-size: 14px;
