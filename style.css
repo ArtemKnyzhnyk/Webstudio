@@ -148,6 +148,10 @@ padding-bottom: 50px;
   gap: 30px;
   border: solid blue 5px;
 }
+.feature-subbox::before{
+  content: "";
+  background-image: url(./imges/antenna\ 1.png);
+}
 .feature-title {
   font-size: 14px;
   font-style: normal;
