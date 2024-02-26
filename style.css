@@ -146,12 +146,26 @@ padding-bottom: 50px;
 .feature-list {
   display: flex;
   gap: 30px;
-  border: solid blue 5px;
 }
-.feature-subbox::before{
+.feature-item::before{
   content: "";
+  display: block;
+  height: 120px;
+  width: 270px;
   background-image: url(./imges/antenna\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
 }
+.feature-item:nth-child(2)::before{
+  background-image:url(./imges/feature-clock.png) ;
+  }
+  .feature-item:nth-child(3)::before{
+    background-image:url(./imges/feature-Vector.png) ;
+    }
+    .feature-item:nth-child(4) ::before{
+      background-image:url(./imges/feature-Group.png) ;
+      }
 .feature-title {
   font-size: 14px;
   font-style: normal;
