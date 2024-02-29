@@ -152,19 +152,20 @@ padding-bottom: 50px;
   display: block;
   height: 120px;
   width: 270px;
-  background-image: url(./imges/antenna\ 1.png);
+  background-image: url(./imges/feature-anntena.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #F5F4FA;
+  margin-bottom: 33px;
 }
 .feature-item:nth-child(2)::before{
-  background-image:url(./imges/feature-clock.png) ;
+ background-image: url(./imges/feature-clock.png);
   }
   .feature-item:nth-child(3)::before{
-    background-image:url(./imges/feature-Vector.png) ;
+    background-image:url(./imges/feature-vector.png) ;
     }
-    .feature-item:nth-child(4) ::before{
-      background-image:url(./imges/feature-Group.png) ;
+    .feature-item:nth-child(4)::before{
+   background-image: url(./imges/feature-group.png);
       }
 .feature-title {
   font-size: 14px;
