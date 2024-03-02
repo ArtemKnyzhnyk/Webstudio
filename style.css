@@ -152,20 +152,20 @@ padding-bottom: 50px;
   display: block;
   height: 120px;
   width: 270px;
-  background-image: url(./imges/feature-anntena.png);
+  background-image: url(./imges/feature-anntena.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #F5F4FA;
   margin-bottom: 33px;
 }
 .feature-item:nth-child(2)::before{
- background-image: url(./imges/feature-clock.png);
+ background-image: url(./imges/feature-clock.webp);
   }
   .feature-item:nth-child(3)::before{
-    background-image:url(./imges/feature-vector.png) ;
+    background-image:url(./imges/feature-group.webp) ;
     }
     .feature-item:nth-child(4)::before{
-   background-image: url(./imges/feature-group.png);
+   background-image: url(./imges/feature-Vector.webp);
       }
 .feature-title {
   font-size: 14px;
