@@ -14,7 +14,6 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: solid red;
   margin-left: auto;
   margin-right: auto;
 }
@@ -75,7 +74,7 @@ body {
   letter-spacing: 0.28px;
 }
 .header-adress:hover {
-  color: var(--akcent-color);
+color: var(--akcent-color);
 }
 .button-section{
 padding-top: 94px;
@@ -92,14 +91,20 @@ padding-bottom: 50px;
  padding-bottom: 6px;
  padding-left: 22px;
  padding-right: 22px;
-  height: 38px;
   flex-shrink: 0;
   display: flex;
-  gap: 8px;
   align-items: center;
   justify-content: center;
+  color: var(--title-color) ;
+  border-radius: 4px;
 }
-
+.buttons-btn:hover{
+background-color: var(--akcent-color);
+color: var(--text-color);
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+background: #2196f3;
+}
+  
 .hero-title {
   color: #fff;
   text-align: center;
@@ -111,7 +116,6 @@ padding-bottom: 50px;
   letter-spacing: 2.64px;
   text-transform: uppercase;
   width: 696px;
-  outline: solid yellow;
 }
 .hero {
   background-color: var(--backraund-color);
@@ -141,7 +145,6 @@ padding-bottom: 50px;
 .feature {
   padding-top: 94px;
   padding-bottom: 94px;
-  outline: solid orange;
 }
 .feature-list {
   display: flex;
@@ -257,7 +260,7 @@ padding-bottom: 50px;
 }
 
 .footer-logo {
-  color: var(--text-color));
+  color: var(--text-color);
   font-family: Raleway;
   font-size: 26px;
   font-style: normal;
@@ -322,11 +325,9 @@ padding-bottom: 50px;
 }
 .posters-item{
   width: 370px;
-  outline: solid blue;
   width: calc((100% - 30px * 2 ) / 3 );
 }
 .subcontainer{
-  outline: solid yellow 5px;
    padding-right: 24px;
   padding-left: 24px;
 padding-bottom: 20px;
