@@ -118,7 +118,7 @@ background: #2196f3;
   width: 696px;
 }
 .hero {
-  background-color: var(--backraund-color);
+ background-image: url(./imges/panoram-img.png);
   padding-bottom: 200px;
   padding-top: 200px;
 }
