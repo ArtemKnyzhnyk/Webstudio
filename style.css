@@ -228,6 +228,9 @@ background: #2196f3;
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   padding-bottom: 30px;
 }
+ .team-article{
+  box-shadow: px 2px 3px 0px var(--text-subcolor);
+ }
 .team-picture {
   width: 270px;
 }
@@ -347,7 +350,7 @@ margin-top: 20px;
   margin-top: 4px;
 }
 .posters-article {
- 
+ box-shadow: 1px 3px 5px 0px var(--text-subcolor);
 }
 
 .poster-text {
