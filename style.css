@@ -21,10 +21,9 @@ body {
   display: flex;
   align-items: center;
 }
-.header{
- padding-bottom:25px  ;
- padding-top:24px ;
-
+.header {
+  padding-bottom: 25px;
+  padding-top: 24px;
 }
 .header-logo {
   color: var(--akcent-color);
@@ -48,6 +47,10 @@ body {
   display: flex;
   gap: 30px;
   margin-left: 344px;
+}
+.header-icon {
+  width: 16px;
+  height: 12px;
 }
 .header-link {
   color: var(--title-color);
@@ -74,37 +77,37 @@ body {
   letter-spacing: 0.28px;
 }
 .header-adress:hover {
-color: var(--akcent-color);
+  color: var(--akcent-color);
 }
-.button-section{
-padding-top: 94px;
-padding-bottom: 50px;
+.button-section {
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 .buttons-list {
   display: flex;
   justify-content: center;
   gap: 8px;
-  
 }
 .buttons-btn {
- padding-top:6px ;
- padding-bottom: 6px;
- padding-left: 22px;
- padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
   flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--title-color) ;
+  color: var(--title-color);
   border-radius: 4px;
 }
-.buttons-btn:hover{
-background-color: var(--akcent-color);
-color: var(--text-color);
-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
-background: #2196f3;
+.buttons-btn:hover {
+  background-color: var(--akcent-color);
+  color: var(--text-color);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
+  background: #2196f3;
 }
-  
+
 .hero-title {
   color: #fff;
   text-align: center;
@@ -118,7 +121,7 @@ background: #2196f3;
   width: 696px;
 }
 .hero {
- background-image: url(./imges/panoram-img.png);
+  background-image: url(./imges/panoram-img.png);
   padding-bottom: 200px;
   padding-top: 200px;
 }
@@ -150,7 +153,7 @@ background: #2196f3;
   display: flex;
   gap: 30px;
 }
-.feature-item::before{
+.feature-item::before {
   content: "";
   display: block;
   height: 120px;
@@ -158,18 +161,18 @@ background: #2196f3;
   background-image: url(./imges/feature-anntena.webp);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   margin-bottom: 33px;
 }
-.feature-item:nth-child(2)::before{
- background-image: url(./imges/feature-clock.webp);
-  }
-  .feature-item:nth-child(3)::before{
-    background-image:url(./imges/feature-group.webp) ;
-    }
-    .feature-item:nth-child(4)::before{
-   background-image: url(./imges/feature-Vector.webp);
-      }
+.feature-item:nth-child(2)::before {
+  background-image: url(./imges/feature-clock.webp);
+}
+.feature-item:nth-child(3)::before {
+  background-image: url(./imges/feature-group.webp);
+}
+.feature-item:nth-child(4)::before {
+  background-image: url(./imges/feature-Vector.webp);
+}
 .feature-title {
   font-size: 14px;
   font-style: normal;
@@ -228,9 +231,9 @@ background: #2196f3;
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   padding-bottom: 30px;
 }
- .team-article{
+.team-article {
   box-shadow: px 2px 3px 0px var(--text-subcolor);
- }
+}
 .team-picture {
   width: 270px;
 }
@@ -255,7 +258,20 @@ background: #2196f3;
   line-height: normal;
   letter-spacing: 0.48px;
 }
-
+.logo-title {
+  text-align: center;
+}
+.logo-list {
+  display: flex;
+ justify-content: center;
+ gap:94px ;
+}
+.logo-item {
+  width: 106px;
+  height: 60px;
+  margin-top: 66px;
+  margin-bottom: 110px;
+}
 .footer {
   background: #2f303a;
   padding-top: 60px;
@@ -318,23 +334,23 @@ background: #2196f3;
   line-height: 26px; /* 162.5% */
   letter-spacing: 0.48px;
 }
-.posters-section{
+.posters-section {
   padding-bottom: 94px;
 }
-.posters-list{
+.posters-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.posters-item{
+.posters-item {
   width: 370px;
-  width: calc((100% - 30px * 2 ) / 3 );
+  width: calc((100% - 30px * 2) / 3);
 }
-.subcontainer{
-   padding-right: 24px;
+.subcontainer {
+  padding-right: 24px;
   padding-left: 24px;
-padding-bottom: 20px;
-margin-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
 }
 .posters-title {
   color: #212121;
@@ -344,13 +360,12 @@ margin-top: 20px;
   font-weight: 700;
   line-height: 36px; /* 200% */
   letter-spacing: 1.08px;
- 
 }
-.posters-text{
+.posters-text {
   margin-top: 4px;
 }
 .posters-article {
- box-shadow: 1px 3px 5px 0px var(--text-subcolor);
+  box-shadow: 1px 3px 5px 0px var(--text-subcolor);
 }
 
 .poster-text {
@@ -370,4 +385,11 @@ margin-top: 20px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
+}
+.footer-title{
+  color: #FFF;
+}
+.footer-icon{
+  width: 20px;
+height: 20px;
 }
