@@ -9,7 +9,6 @@
 body {
   font-family: Roboto;
 }
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -41,7 +40,7 @@ body {
 }
 .header-list {
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
 .header-contacts {
   display: flex;
@@ -51,6 +50,10 @@ body {
 .header-icon {
   width: 16px;
   height: 12px;
+  margin-right: 10px;
+}
+.header-icon:hover {
+  fill: #2196f3;
 }
 .header-link {
   color: var(--title-color);
@@ -231,6 +234,11 @@ body {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   padding-bottom: 30px;
 }
+.team-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
 .team-article {
   box-shadow: px 2px 3px 0px var(--text-subcolor);
 }
@@ -248,7 +256,19 @@ body {
   margin-bottom: 10px;
   margin-top: 30px;
 }
-
+.team-link{
+  width: 44px;
+height: 44px;
+flex-shrink: 0;
+background-color: transparent;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+}
+.team-link:hover{
+background-color: #2196f3;
+}
 .team-text {
   text-align: center;
   font-family: Roboto;
@@ -258,19 +278,41 @@ body {
   line-height: normal;
   letter-spacing: 0.48px;
 }
+.team-sublist {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 28px;
+}
+.team-icon:hover {
+  fill: #fff;
+}
 .logo-title {
   text-align: center;
 }
 .logo-list {
   display: flex;
- justify-content: center;
- gap:94px ;
+  justify-content: center;
+  gap: 94px;
 }
 .logo-item {
   width: 106px;
   height: 60px;
   margin-top: 66px;
   margin-bottom: 110px;
+}
+.logo-link:hover{
+  width: 44px;
+height: 44px;
+flex-shrink: 0;
+}
+.logo-icon {
+  fill: #afb1b8;
+  border-radius: 4px;
+border: 1px #AFB1B8;
+}
+.logo-icon:hover {
+  fill: #2196f3;
 }
 .footer {
   background: #2f303a;
@@ -386,10 +428,18 @@ body {
   line-height: normal;
   letter-spacing: 0.78px;
 }
-.footer-title{
-  color: #FFF;
+.footer-title {
+  color: #fff;
+  margin-bottom: 20px;
 }
-.footer-icon{
+.footer-list {
+  display: flex;
+  gap: 10px;
+}
+.footer-icon {
   width: 20px;
-height: 20px;
+  height: 20px;
+  fill: #fff;
+}
+.footer-icon:hover {
 }
