@@ -459,10 +459,11 @@ flex-shrink: 0;
  display: flex;
 }
 .footer-adressbox{
-  outline: solid yellow;
+  
 }
 .footer-box{
-  outline: solid red;
+
+  margin-left: 70px;
 }
 .footer-title {
   color: #fff;
