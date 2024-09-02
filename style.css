@@ -11,6 +11,7 @@ body {
 }
 .container {
   width: 1200px;
+  outline: solid green;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -287,19 +288,37 @@ background-color: #2196f3;
 .team-icon:hover {
   fill: #fff;
 }
+.logo-section{
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 .logo-title {
   text-align: center;
+  color: #212121;
+
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
 }
 .logo-list {
   display: flex;
   justify-content: center;
-  gap: 94px;
+  gap: 30px;
+   margin-top: 50px;
 }
 .logo-item {
-  width: 106px;
-  height: 60px;
-  margin-top: 66px;
-  margin-bottom: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+height: 92px;
+
+  border-radius: 4px;
+border: solid 1px #AFB1B8;
 }
 .logo-link:hover{
   width: 44px;
@@ -308,11 +327,18 @@ flex-shrink: 0;
 }
 .logo-icon {
   fill: #afb1b8;
-  border-radius: 4px;
-border: 1px #AFB1B8;
+  width: 106px;
+  height: 60px;
 }
-.logo-icon:hover {
+.logo-icon:hover{
   fill: #2196f3;
+}
+.logo-item:hover .logo-icon{
+  fill: #2196f3;
+}
+.logo-item:hover {
+
+  border-color: #2196f3;
 }
 .footer {
   background: #2f303a;
@@ -419,6 +445,7 @@ border: 1px #AFB1B8;
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.48px;
 }
+
 .footer-logo {
   color: #2196f3;
   font-family: Raleway;
@@ -427,6 +454,15 @@ border: 1px #AFB1B8;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
+}
+.footer-subbox{
+ display: flex;
+}
+.footer-adressbox{
+  outline: solid yellow;
+}
+.footer-box{
+  outline: solid red;
 }
 .footer-title {
   color: #fff;
@@ -442,4 +478,5 @@ border: 1px #AFB1B8;
   fill: #fff;
 }
 .footer-icon:hover {
+
 }
