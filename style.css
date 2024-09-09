@@ -210,6 +210,15 @@ body {
   display: flex;
   gap: 30px;
 }
+.work-item{
+
+}
+.work-subbox{
+  width: 370px;
+height: 70px;
+flex-shrink: 0;
+background:  rgba(47, 48, 58, 0.80);
+}
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -269,6 +278,9 @@ border-radius: 50%;
 }
 .team-link:hover{
 background-color: #2196f3;
+}
+.team-subitem:hover .team-icon{
+fill: #fff;
 }
 .team-text {
   text-align: center;
@@ -476,13 +488,21 @@ flex-shrink: 0;
 .footer-icon {
   width: 20px;
   height: 20px;
-  fill: #fff;
+  fill: white ;
 }
-.footer-icon:hover {
-  border-color: #2196f3;
+
+.footer-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: rgba(255, 255, 255, 0.10); 
 border-radius: 50%;
 width: 44px;
 height: 44px;
 flex-shrink: 0;
+}
+.footer-link:hover{
+  border-radius: 50%;
+  background-color: #2196f3;
 
 }
