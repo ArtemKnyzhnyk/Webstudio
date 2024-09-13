@@ -52,6 +52,11 @@ body {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  fill: #757575;
+}
+.header-contact{
+  display: flex;
+  align-items: center;
 }
 .header-contact:hover .header-icon{
   fill: #2196f3;
@@ -431,6 +436,7 @@ flex-shrink: 0;
   line-height: 26px; /* 162.5% */
   letter-spacing: 0.48px;
 }
+                                      (portfolio)
 .posters-section {
   padding-bottom: 94px;
 }
@@ -461,7 +467,7 @@ flex-shrink: 0;
 .posters-text {
   margin-top: 4px;
 }
-.posters-article {
+.posters-article:hover {
   box-shadow: 1px 3px 5px 0px var(--text-subcolor);
 }
 
