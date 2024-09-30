@@ -66,7 +66,9 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-button">Замовити послугу</button>
+          <button data-modal-open type="button" class="hero-button">
+            Замовити послугу
+          </button>
         </div>
       </section>
       <section class="feature">
@@ -423,13 +425,40 @@
         </div>
       </div>
     </footer>
-     <div class="backdrop">
+    <div data-modal class="backdrop is-hidden">
       <div class="modal">
         <article class="modal-article">
-       <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
-       <button type="button" class="modal-button">Відправити</button>
+          <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+          <button data-modal-close class="modal-button" type="button">
+            <svg class="modal-icon">
+              <use href="./imges/symbol-defs.svg#icon-close"></use>
+            </svg>
+          </button>
+          <form>
+            <ul class="modal-list">
+              <li class="modal-item">
+                <svg class="modal-subicon">
+                  <use href="./imges/symbol-defs-webstudio.svg#iconicon-modal-men"></use>
+                </svg>
+                <input class="modal-input" type="text" />
+              </li>
+              <li class="modal-item">
+                <svg class="modal-subicon">
+                  <use href="./imges/symbol-defs-webstudio.svg#iconicon-modal-phone"></use>
+                </svg>
+                <input class="modal-input" type="text" />
+              </li>
+              <li class="modal-item">
+                <svg class="modal-subicon">
+                  <use href="./imges/symbol-defs-webstudio.svg#iconicon-modal-email"></use>
+                </svg>
+                <input class="modal-input" type="text" />
+              </li>
+            </ul>
+          </form>
         </article>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
