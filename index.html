@@ -431,30 +431,60 @@
           <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
           <button data-modal-close class="modal-button" type="button">
             <svg class="modal-icon">
-              <use href="./imges/symbol-defs.svg#icon-close"></use>
+              <use href="./imges/symbol-defs-webstudio.svg#icon-close"></use>
             </svg>
           </button>
-          <form>
+          <form class="modal-form">
             <ul class="modal-list">
               <li class="modal-item">
+                <p class="modal-text">Ім'я</p>
                 <svg class="modal-subicon">
-                  <use href="./imges/symbol-defs-webstudio.svg#iconicon-modal-men"></use>
+                  <use
+                    href="./imges/symbol-defs-webstudio.svg#icon-modal-men"
+                  ></use>
                 </svg>
                 <input class="modal-input" type="text" />
               </li>
               <li class="modal-item">
+                <p class="modal-text">Телефон</p>
                 <svg class="modal-subicon">
-                  <use href="./imges/symbol-defs-webstudio.svg#iconicon-modal-phone"></use>
+                  <use
+                    href="./imges/symbol-defs-webstudio.svg#icon-modal-phone"
+                  ></use>
                 </svg>
                 <input class="modal-input" type="text" />
               </li>
               <li class="modal-item">
+                <p class="modal-text">Пошта</p>
                 <svg class="modal-subicon">
-                  <use href="./imges/symbol-defs-webstudio.svg#iconicon-modal-email"></use>
+                  <use
+                    href="./imges/symbol-defs-webstudio.svg#icon-modal-email"
+                  ></use>
                 </svg>
                 <input class="modal-input" type="text" />
+              </li>
+
+              <li class="modal-item">
+                <p class="modal-text">Коментар</p>
+                <textarea
+                  placeholder="Введіть текст"
+                  class="modal-subinput"
+                  name="modal-input"
+                  id="comment"
+                ></textarea>
               </li>
             </ul>
+
+            <div class="modal-subox">
+              <input class="modal-checkbox" type="checkbox" />
+              <p class="modal-subtext">
+                <span class="modal-mailing">Погоджуюся з розсилкою та приймаю</span>
+
+                <a class="modal-sublink" href="">Умови договору</a>
+              </p>
+            </div>
+
+            <button class="modal-subbutton" type="submit">Відправити</button>
           </form>
         </article>
       </div>

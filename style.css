@@ -545,18 +545,28 @@ flex-shrink: 0;
   pointer-events: none;
 }
 .modal{
-  width: 528px;
-height: 581px;
+ /* width: 528px; */
+/* height: 581px; */
 background-color: #FFF;
  position: absolute;
   top: 50%;
   left: 50%;
  transform: translate(-50%,-50%);
+ padding-left:40px ;
+ padding-right:40px ;
+ padding-top:40px ;
+ padding-bottom: 40px;
+ border-radius: 4px;
+background: #FFF;
+
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
+
 .modal-title{
 margin-right: 8px;
 margin-top: 40px;
 }
+
 .modal-button{
   background-color: transparent;
   width: 40px;
@@ -564,6 +574,7 @@ margin-top: 40px;
   position:absolute;
 top: 8px;
 right: 8px;
+
 }
 .modal-icon{
   width: 30px;
@@ -571,11 +582,79 @@ height: 30px;
 stroke: #000;
 border: solid  rgba(0, 0, 0, 0.10);
 border-radius: 50%;
-background-color: #FFF;
+background-color: #ffffff;
+
 }
 .modal-subicon{
-  outline: solid red;
 width: 18px;
 height: 18px;
+position: absolute;
+top: 29px;
+left: 12px;
+}
+.modal-input{
+  width: 100% ;
+  height: 40px;
+}
+.modal-subinput{
+  width: 100% ;
+  height: 120px;
+  padding-top: 12px;
+  padding-left: 16px;
+}
+.modal-item{
+ margin-top: 10px;
+ position: relative;
+}
+.modal-text{
+  margin-bottom: 4px;
+  color: #757575;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+}
+.modal-checkbox{
+  margin-right: 8px;
 
+}
+.modal-subtext{
+  color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+.modal-sublink{
+  color: #2196F3;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+text-decoration-line: underline;
+margin-left: 8px;
+}
+.modal-subox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.modal-subbutton{
+  display: block;
+  width: 200px;
+  height: 50px;
+  background-color: #2196f3;
+  color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
